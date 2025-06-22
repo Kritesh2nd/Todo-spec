@@ -1,15 +1,15 @@
 # React build and node_modules
-/todo_list_react/node_modules
-/todo_list_react/dist
-/todo_list_react/.vite
-/todo_list_react/.DS_Store
+/frontend/node_modules
+/frontend/dist
+/frontend/.vite
+/frontend/.DS_Store
 
 # Django files to ignore
-/todo_api_django/__pycache__/
-/todo_api_django/db.sqlite3
-/todo_api_django/*.pyc
-/todo_api_django/*.log
-/todo_api_django/*.env
+/backend/__pycache__/
+/backend/db.sqlite3
+/backend/*.pyc
+/backend/*.log
+/backend/*.env
 
 # Common
 *.log
@@ -24,6 +24,6 @@
 *.sln
 *.sw?
 
-# Ignoring todo_list_react/todo_api_django's internal .gitignore files
-/todo_list_react/.gitignore
-/todo_api_django/.gitignore
+# Ignoring frontend/backend's internal .gitignore files
+/frontend/.gitignore
+/backend/.gitignore

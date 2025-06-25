@@ -62,6 +62,32 @@ This is a full-stack To-Do List web application built using:
      - **Incomplete** tasks are show at **top**
      - **Completed** tasks are shown **below**
 
+---
+
+## 📦 Prerequisites
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop) installed and running
+- Git installed
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to run the full project:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/konnectkraft-dev/Todo-spec.git
+cd Todo-spec
+docker-compose up --build
+```
+
+## Access the App
+
+Frontend (React): http://localhost:5173
+Backend (Django API): http://localhost:8000
+
 ## 🖼️ Screenshot
 
 ![Empty Todo List](screenshots/todo-list-empty.png)

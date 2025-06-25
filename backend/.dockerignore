@@ -1,0 +1,47 @@
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDE/editor config
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Git & version control
+.git/
+.gitignore
+
+# Docker-related
+Dockerfile
+.dockerignore
+
+# Bytecode and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Environment files (⚠️ contains secrets)
+.env
+.env.*
+
+# Database files (if you want a fresh DB inside image)
+db.sqlite3
+
+steps.txt
